@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dugme1 {
+    background-color: rgb(238, 200, 206);
+}
+
+.dugme2 {
+    background-color: rgb(68, 230, 176);
+}
+
+.dugme3 {
+    background-color: rgb(180, 125, 180);
+}
+
+.dugme4 {
+    background-color: rgb(121, 191, 238);
+}
+
+.dugme5 {
+    background-color: rgb(241, 241, 120);
+}
+
+.dugme6 {
+    background-color: rgb(28, 206, 161);
+}
+
+.dugme7 {
+    background-color: rgb(174, 247, 80);
+}
+
+.dugme8 {
+    background-color: rgb(245, 156, 115);
+}
+
+.dugme9 {
+    background-color: rgb(169, 156, 243);
+}
+
+input[type=button] {
+    margin: 11px;
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(41, 37, 37);
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 9px rgb(167, 166, 166);
+}
+
+input[type=button]:hover {
+    background-color: rgb(151, 243, 220);
+}
+
+input[type=button]:active {
+    background-color: rgb(223, 201, 243);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+}
